@@ -42,9 +42,10 @@ function Portfolio() {
 						<div class="btn1" id="btn1">
 							Book Finder
 							<span id="bookFinder">
-								ur usuer story: As a reader I want to see books recommend from a title entered/ books
+								user story: As a reader I want to see books recommend from a title entered/ books
 								recommended from genres. Along with reader reviews and rating. So that I can find new
-								literature to read.
+								literature to read. Dynamically updated HTML and CSS powered by JavaScript AJAX calls to
+								external API's code. All UI done by me. https://waterylime.github.io/Book-Finder/.
 							</span>
 						</div>
 					</div>
@@ -60,8 +61,8 @@ function Portfolio() {
 						Code Quiz
 						<span id="codeQuiz">
 							Create an application that generates a random password based on user-selected criteria. This
-							app will run in the browser and feature dynamically updated HTML and CSS powered by your
-							JavaScript code.
+							app will run in the browser and feature dynamically updated HTML and CSS powered by
+							JavaScript code. https://waterylime.github.io/Code-Quiz/.
 						</span>
 					</div>
 				</div>
@@ -77,7 +78,7 @@ function Portfolio() {
 							<span id="passPop">
 								Create an application that generates a random password based on user-selected criteria.
 								This app will run in the browser and feature dynamically updated HTML and CSS powered by
-								your JavaScript code.
+								JavaScript code. https://waterylime.github.io/Password-Generator/.
 							</span>
 						</div>
 					</div>
@@ -88,7 +89,7 @@ function Portfolio() {
 						className="video-container video-container-overlay"
 						autoPlay="true"
 						loop
-						
+
 						>
 						<source src={this.props.translation} type="video/mp4" />
 						</video>
@@ -97,8 +98,8 @@ function Portfolio() {
 						<div class="btn4" id="btn4">
 							Translation Website COMING SOON
 							<span id="bsnPop">
-								Nothing to do with develoment but I did make the site. This is the website for my
-								translation of light novels in to english.
+								Nothing to do with develoment I did all the UI design involved in this site. This is the
+								website for my translation of light novels in to english. Powered by React.
 							</span>
 						</div>
 					</div>
@@ -132,7 +133,9 @@ function Portfolio() {
 							<span id="Word">
 								Our usuer story: As a reader As a I reader I want to be able to look up foreign word,
 								that is in my book. be provided with definitions and text to speech of word and maybe a
-								picture. So that I can under stand what I am reading. Patent Pending
+								picture. So that I can under stand what I am reading. Dynamically updated HTML and CSS
+								powered by JavaScript AJAX calls to external API's SQL database and NODE. All UI done by
+								me. Patent Pending https://whatintheword.herokuapp.com
 							</span>
 						</div>
 					</div>
@@ -148,7 +151,25 @@ function Portfolio() {
 							Dragon Restaurant
 							<span id="restPop">
 								A full stack application that simulates a reservation system for a restaurant with only
-								five tables. Includes 2 RESTful API's and code that determinates between the two.
+								five tables. Includes 2 RESTful API's and code that determinates between the two. All UI
+								done by me. https://sheltered-bayou-19458.herokuapp.com/
+							</span>
+						</div>
+					</div>
+				</div>
+				<div className="container8">
+					{/* <div>
+						<video className="video-container video-container-overlay" autoPlay="true" loop>
+							<source src={dragon} type="video/mp4" />
+						</video>
+					</div> */}
+					<div class="container" id="linkFour">
+						<div class="btn7" id="btn7">
+							Key-Signaturer
+							<span id="restPop">
+								This is a collaborative project between @tzvik15, for music stduents. All UI was done by
+								me and all fuctional part was done by @tzvik15. Powered by React
+								tzvik15.github.io/Key-Signaturer
 							</span>
 						</div>
 					</div>
