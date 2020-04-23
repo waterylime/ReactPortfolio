@@ -55,11 +55,12 @@ function About() {
 				</p>
 				<p className="break" id="pSeven">
 					You can see examples of my projects in the <a href="portfolio.html">portfolio</a> section.{' '}
-					<a href="https://github.com/waterylime" target="_blank" rel="noopener noreferrer">
+					<a className="link" href="https://github.com/waterylime" target="_blank" rel="noopener noreferrer">
 						THIS
 					</a>{' '}
 					is a link to my GitHub page,{' '}
 					<a
+						className="link"
 						href="https://www.linkedin.com/in/shauna-larkin-bb534a13/"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -67,7 +68,7 @@ function About() {
 						THIS
 					</a>{' '}
 					is a link to my LinkedIn page, and{' '}
-					<a href={resume} rel="noopener noreferrer" target="_blank">
+					<a className="link" href={resume} rel="noopener noreferrer" target="_blank">
 						HERE
 					</a>{' '}
 					you can download my resume. For my technical skills and proficiencies, click{' '}
@@ -99,7 +100,10 @@ function About() {
 						Oriented Programming, MongoDB and Mongoose, PWA creation (including offline support) <br />
 					</p>
 					<p>
-						To see these skills in use, please click <a href="portfolio.html">HERE</a>.
+						To see these skills in use, please click{' '}
+						<a className="link" href="portfolio.html">
+							HERE
+						</a>.
 					</p>
 				</div>
 			</Modal>

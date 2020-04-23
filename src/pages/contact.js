@@ -7,16 +7,23 @@ function Contact() {
 				Contact <hr />
 			</h2>
 			<p class="break">
-				You can contact me directly by email <a href="mailto:dreamsfromayame@gmail.com">HERE</a>, or by phone at
-				303.396.5759
+				You can contact me directly by email{' '}
+				<a className="link" href="mailto:dreamsfromayame@gmail.com">
+					HERE
+				</a>, or by phone at 303.396.5759
 			</p>
 			<p class="break">
 				You can find my GitHub page{' '}
-				<a href="https://github.com/waterylime" rel="noopener noreferrer" target="_blank">
+				<a className="link" href="https://github.com/waterylime" rel="noopener noreferrer" target="_blank">
 					HERE
 				</a>
 				, and my LinkedIn profile{' '}
-				<a href="https://www.linkedin.com/in/shauna-larkin-bb534a13/" rel="noopener noreferrer" target="_blank">
+				<a
+					className="link"
+					href="https://www.linkedin.com/in/shauna-larkin-bb534a13/"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					HERE
 				</a>
 				.
